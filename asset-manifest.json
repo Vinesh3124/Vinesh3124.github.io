@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1626fdbe.chunk.css",
+    "main.js": "/static/js/main.01a96ffc.chunk.js",
+    "main.js.map": "/static/js/main.01a96ffc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a0694679.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a0694679.js.map",
+    "static/js/2.2a8b537e.chunk.js": "/static/js/2.2a8b537e.chunk.js",
+    "static/js/2.2a8b537e.chunk.js.map": "/static/js/2.2a8b537e.chunk.js.map",
+    "static/js/3.b0cc3170.chunk.js": "/static/js/3.b0cc3170.chunk.js",
+    "static/js/3.b0cc3170.chunk.js.map": "/static/js/3.b0cc3170.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1626fdbe.chunk.css.map": "/static/css/main.1626fdbe.chunk.css.map",
+    "static/js/2.2a8b537e.chunk.js.LICENSE.txt": "/static/js/2.2a8b537e.chunk.js.LICENSE.txt",
+    "static/media/CSS_logo.5da907d7.svg": "/static/media/CSS_logo.5da907d7.svg",
+    "static/media/JavaScript_Logo.2e10b2a2.png": "/static/media/JavaScript_Logo.2e10b2a2.png",
+    "static/media/MongoDB_logo.cf4cb4a2.gif": "/static/media/MongoDB_logo.cf4cb4a2.gif",
+    "static/media/Profile_1.5a16f99f.jpg": "/static/media/Profile_1.5a16f99f.jpg",
+    "static/media/React_logo.6be6b520.png": "/static/media/React_logo.6be6b520.png",
+    "static/media/Vinesh's Resume.988d8b3f.pdf": "/static/media/Vinesh's Resume.988d8b3f.pdf",
+    "static/media/html_logo.2fcf94ab.png": "/static/media/html_logo.2fcf94ab.png",
+    "static/media/materialUi_logo.5b2d8a0a.png": "/static/media/materialUi_logo.5b2d8a0a.png",
+    "static/media/mongoose_logo.df9141d3.png": "/static/media/mongoose_logo.df9141d3.png",
+    "static/media/styledCom_logo.c546aab1.png": "/static/media/styledCom_logo.c546aab1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0694679.js",
+    "static/js/2.2a8b537e.chunk.js",
+    "static/css/main.1626fdbe.chunk.css",
+    "static/js/main.01a96ffc.chunk.js"
+  ]
+}
