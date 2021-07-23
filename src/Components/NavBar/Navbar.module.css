@@ -4,18 +4,51 @@ nav {
     z-index: 5;
     width: 100%;
     color: white;
-    justify-content: space-around;
+    /* justify-content: space-between; */
 }
   
 nav > div {
     cursor: pointer;
     margin-top: 1%;
     height: 35px;
-    border-radius: 50%;
-    width: 3%;
+    /* border-radius: 50%; */
+    /* width: 2%; */
     font-weight: bold;
+    margin-left: 18%;
+    /* border: 1px solid white; */
+}
+
+nav > div:nth-child(1) {
+    cursor: pointer;
+    margin-top: 1%;
+    height: 35px;
+    /* border-radius: 50%; */
+    /* width: 2%; */
+    font-weight: bold;
+    margin-left: 11%;
+    /* border: 1px solid white; */
 }
   
 nav > div:hover{
     color: rgb(207, 68, 91);
+}
+
+@media only screen and (min-width: 200px) and (max-width: 500px){
+    nav {
+        display: flex;
+        /* background-color: #1B242F; */
+        z-index: 5;
+        width: 100%;
+        color: white;
+        /* justify-content: space-around; */
+    }
+      
+    nav > div {
+        cursor: pointer;
+        margin-top: 1%;
+        height: 35px;
+        /* border-radius: 50%; */
+        width: 3%;
+        font-weight: bold;
+    }    
 }
