@@ -1,28 +1,19 @@
-/* .App {
-    font-family: sans-serif;
-    text-align: center;
-} */
-  
 nav {
     display: flex;
     background-color: #1B242F;
     z-index: 5;
     width: 100%;
     color: white;
-    /* justify-content: space-around; */
+    justify-content: space-around;
 }
   
 nav > div {
-    /* padding: 5px 5px; */
     cursor: pointer;
-    margin-left: 6%;
     margin-top: 1%;
     height: 35px;
-    /* border: 1px solid white; */
     border-radius: 50%;
     width: 3%;
     font-weight: bold;
-    /* text-align: center; */
 }
   
 nav > div:hover{

@@ -6,7 +6,7 @@ import {imgData} from "../Data/Techlogo"
 
 const About = () => {
     return (
-        <Container maxWidth="xl" className={styles.home}>
+        <Container id="about" maxWidth="xl" className={styles.home}>
             <Box className={styles.mainBox}>
                 <Box className={styles.leftBox}>
                     <Box className={styles.infoBox}>
@@ -33,21 +33,6 @@ const About = () => {
                         ))
                     }
                 </Box>
-
-                {/* <Box className={styles.rightBox}>
-                    <Box className={styles.iconBox}>
-                        <img className={styles.img} src="" alt="HTML"/>
-                    </Box>
-                    <Box className={styles.iconBox}>CSS</Box>
-                    <Box className={styles.iconBox}>JavaScript</Box>
-                    <Box className={styles.iconBox}>React</Box>
-                    <Box className={styles.iconBox}>Redux</Box>
-                    <Box className={styles.iconBox}>Material-UI</Box>
-                    <Box className={styles.iconBox}>Styled-Components</Box>
-                    <Box className={styles.iconBox}>MongoDB</Box>
-                    <Box className={styles.iconBox}>Express</Box>
-                    <Box className={styles.iconBox}>Mongoose</Box>
-                </Box> */}
             </Box>
         </Container>
     )

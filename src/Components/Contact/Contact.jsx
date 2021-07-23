@@ -22,7 +22,6 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // console.log(e.target)
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
           .then((result) => {
               alert("Message sent. Thank you :)");
@@ -32,7 +31,7 @@ const Contact = () => {
     }
 
     return (
-        <Container maxWidth="xl" className={styles.main}>
+        <Container id="contact" maxWidth="xl" className={styles.main}>
             <Box className={styles.title}>
                 <span>Contact Me</span>
             </Box>

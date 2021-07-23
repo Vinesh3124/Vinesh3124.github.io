@@ -12,7 +12,7 @@ const Blogs = () => {
     }
 
     return (
-        <Container maxWidth="xl" className={styles.mainContainer}>
+        <Container id="blogs" maxWidth="xl" className={styles.mainContainer}>
             <Box className={styles.title}>
                 <span>Blogs</span>
             </Box>

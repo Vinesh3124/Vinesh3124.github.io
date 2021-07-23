@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "./Navbar.module.css"
+import { Link } from 'react-scroll'
 
 export class Navbar extends Component {
 
@@ -13,7 +14,6 @@ export class Navbar extends Component {
 
     componentDidMount() {
         const distanceFromTop = this.navbar.current.getBoundingClientRect().top;
-        // console.log(distanceFromTop);
         this.setState({ scroll: window.scrollY, distanceFromTop });
         window.addEventListener("scroll", e => {
           this.handleScroll(e);
@@ -21,12 +21,10 @@ export class Navbar extends Component {
     }
     
     handleScroll = e => {
-        const { sticky, distanceFromTop } = this.state;
-        // console.log(window.scrollY);
-        // only change state if it isn't already sticky and if it's changed
-        if (window.scrollY > 650 && sticky === false) {
+        const { sticky } = this.state;
+        if (window.scrollY > 600 && sticky === false) {
           this.setState({ sticky: true });
-        } else if (window.scrollY < 640 && sticky) {
+        } else if (window.scrollY < 600 && sticky) {
           this.setState({ sticky: false });
         }
     };
@@ -44,12 +42,20 @@ export class Navbar extends Component {
             <div>
                 <nav ref={this.navbar} style={{ ...styles }}>
                     <div>
-                        <span>VN</span>
+                        <Link to="home" spy={true} smooth={true}>VN</Link>
                     </div>
-                    {/* <div>About</div>
-                    <div>Projects</div>
-                    <div>Blogs</div>
-                    <div>Contact</div> */}
+                    <div>
+                        <Link to="about" spy={true} smooth={true}>About</Link>
+                    </div>
+                    <div>
+                        <Link to="projects" spy={true} smooth={true}>Projects</Link>    
+                    </div>
+                    <div>
+                        <Link to="blogs" spy={true} smooth={true}>Blogs</Link> 
+                    </div>
+                    <div>
+                        <Link to="contact" spy={true} smooth={true}>Contact</Link>
+                    </div>
                 </nav>
             </div>
         )

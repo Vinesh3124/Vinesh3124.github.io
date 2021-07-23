@@ -9,15 +9,13 @@ import projectData from "../Data/ProjectData.json"
 
 const Projects = () => {
 
-    const {link, setLink} = React.useState(false)
-
     const newTab = (url) => {
         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
         if (newWindow) newWindow.opener = null
     }
 
     return (
-        <Container maxWidth="xl" className={styles.main}>
+        <Container id="projects" maxWidth="xl" className={styles.main}>
             <Box className={styles.title}>
                 <span>Projects</span>
             </Box>
@@ -60,13 +58,6 @@ const Projects = () => {
                         </Box>
                     ))
                 }
-
-                {/* <Box className={styles.projectCard}></Box>
-                <Box className={styles.projectCard}></Box>
-                <Box className={styles.projectCard}></Box>
-                <Box className={styles.projectCard}></Box>
-                <Box className={styles.projectCard}></Box>
-                <Box className={styles.projectCard}></Box> */}
             </Box>
         </Container>
     )

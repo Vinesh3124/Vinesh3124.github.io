@@ -8,9 +8,8 @@ import Box from '@material-ui/core/Box';
 const Portfolio = () => {
     return (
         <>
-        <Container maxWidth="xl" className={styles.contain}>
+        <Container id="home" maxWidth="xl" className={styles.contain}>
             <div className={styles.badge}>
-                {/* <Avatar alt="Vinesh Nair" className={styles.badge} src={profilepic}/> */}
                 <img style={{width: "100%", height: "100%", borderRadius: "50%"}} alt="Vinesh Nair" src={profilepic}/>
             </div>
             <Box className={styles.name}>
@@ -41,12 +40,6 @@ const Portfolio = () => {
                 </p>
             </Box>
         </Container>
-        {/* <Container maxWidth="xl" className={styles.containhome}>
-            <Navbar />    
-        </Container>
-        <Container maxWidth="xl" className={styles.containhome}>
-        
-        </Container> */}
         </>
     )
 }

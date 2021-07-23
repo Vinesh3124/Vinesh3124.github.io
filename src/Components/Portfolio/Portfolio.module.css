@@ -1,10 +1,8 @@
 .contain{
     height: 100vh;
     border: 1px solid black;
-    /* background-color: #000a12; */
     background-image: url("https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/36134145/3b50e159f6b0483838c3eaab082bc325baf4ca5f.gif");
     background-color: #cccccc;
-    /* height: 500px; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,8 +12,6 @@
 
 .containhome{
     height: 100vh;
-    /* border: 1px solid black; */
-    /* background-color: black; */
 }
 
 .badge{
@@ -25,9 +21,6 @@
     margin-top: 7%;
     border: 2px solid white;
     border-radius: 50%;
-    /* background: #000A12;
-    box-shadow:  -5px -5px 8px #000407,
-                 5px 5px 8px #00101d; */
 }
 
 .name{
@@ -56,7 +49,6 @@
     width: 80%;
     height: 8vh;
     margin: auto;
-    /* border: 1px solid white; */
     margin-top: 2%;
 }
 
@@ -65,7 +57,6 @@
     margin: auto;
     text-align: center;
     font-size: 30px;
-    /* letter-spacing: 10px; */
 }
 
 @media only screen and (min-width: 200px) and (max-width: 400px){
@@ -82,7 +73,6 @@
         height: 5vh;
         margin: auto;
         margin-top: 2%;
-        /* border: 1px solid white; */
     }
     .name>h2{
         color: white;
@@ -95,7 +85,6 @@
         width: 80%;
         height: 12vh;
         margin: auto;
-        /* border: 1px solid white; */
         margin-top: 8%;
     }
     
@@ -104,7 +93,6 @@
         margin: auto;
         text-align: center;
         font-size: 25px;
-        /* letter-spacing: 10px; */
     }
 }
 
@@ -127,7 +115,6 @@
         width: 80%;
         height: 8vh;
         margin: auto;
-        /* border: 1px solid white; */
         margin-top: 8%;
     }
     
@@ -136,7 +123,6 @@
         margin: auto;
         text-align: center;
         font-size: 25px;
-        /* letter-spacing: 10px; */
     }
 }
 
@@ -153,7 +139,6 @@
         width: 80%;
         height: 8vh;
         margin: auto;
-        /* border: 1px solid white; */
         margin-top: 4%;
     }
     .name>p{
@@ -162,11 +147,10 @@
         text-align: center;
         letter-spacing: 3px;
         width: 150%;
-        /* border: 1px solid wheat; */
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1440px){
+@media only screen and (min-width: 1024px) and (max-width: 2560px){
     .badge{
         width: 16%;
         height: 30%;
@@ -176,8 +160,3 @@
         border-radius: 50%;
     }
 }
-
-
-/* @media only screen and (min-width: 1440px) and (max-width: 2560px){
-
-} */
