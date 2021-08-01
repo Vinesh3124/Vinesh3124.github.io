@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../Portfolio/Portfolio.module.css"
 import Typewriter from "typewriter-effect";
-import profilepic from "../Images/Profile_1.jpg"
+import profilepic from "../Images/Profile_5.png"
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 
