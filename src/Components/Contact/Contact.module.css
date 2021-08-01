@@ -17,6 +17,9 @@
 
 .infoContainer{
     display: flex;
+    /* border: 1px solid; */
+    width: 70%;
+    margin: auto;
     margin-top: 10%;
 }
 
@@ -38,7 +41,7 @@
 }
 
 .inputBox{
-    width: 40%;
+    width: 50%;
 }
 
 .nameBox, .emailBox, .submitBox, .descBox{
@@ -70,7 +73,7 @@
     color: white;
 }
 
-.submitBox>input{
+.submitButton{
     width: 20%;
     height: 30px;
     border: none;
@@ -79,6 +82,7 @@
     color: white;
     background-color: #F50057;
     font-weight: bold;
+    padding: 5px;
 }
 
 .submitBox>input:hover{
@@ -126,6 +130,18 @@
         margin-top: 2%;
         width: 90%;
     }
+
+    .submitButton{
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        background-color: #F50057;
+        font-weight: bold;
+        padding: 5px;
+    }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 700px){
@@ -170,12 +186,34 @@
         margin-top: 2%;
         width: 90%;
     }
+    .submitButton{
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        background-color: #F50057;
+        font-weight: bold;
+        padding: 5px;
+    }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1024px){
     .main{
         height: 90vh;
         margin-top: 15%;
+    }
+    .submitButton{
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        background-color: #F50057;
+        font-weight: bold;
+        padding: 5px;
     }
 }
 

@@ -1,12 +1,19 @@
 .main{
-    height: 130vh;
+    height: auto;
     font-family: 'Roboto Slab', serif;
+    border: 1px solid white;
 }
 
 .title{
-    margin-top: 3.5%;
+    margin-top: 5%;
     height: 50px;
     text-align: center;
+}
+
+.logoImg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .img{
@@ -27,8 +34,8 @@
 }
 
 .projectCard{
-    width: 20%;
-    height: 380px;
+    width: 35%;
+    height: 450px;
     border: 1px solid #f5f8fa;
     margin: auto;
     margin-top: 4%;
@@ -40,7 +47,7 @@
 
 .projectCardPic{
     width: 95%;
-    height: 160px;
+    height: 220px;
     margin: auto;
     margin-top: 2%;
     border-radius: 5%;
@@ -51,6 +58,7 @@
     height: 30px;
     margin: auto;
     margin-top: 1%;
+    text-align: center;
 }
 
 .projectCardName>span{
@@ -70,6 +78,7 @@
     height: 80px;
     margin: auto;
     margin-top: 1%;
+    text-align: center;
 }
 
 .projectCardDesc>p{
@@ -77,7 +86,7 @@
 }
 
 .projectCardBtn{
-    width: 95%;
+    width: 50%;
     height: 30px;
     margin: auto;
     margin-top: 5%;
@@ -96,8 +105,8 @@
     }
 
     .projectCard{
-        width: 80%;
-        height: 380px;
+        width: 90%;
+        height: 440px;
         border: 1px solid white;
         margin: auto;
         margin-top: 8%;
@@ -109,6 +118,22 @@
     .projectCardDesc>p{
         font-size: 12px;
     }
+
+    .projectCardBtn{
+        width: 80%;
+        height: 30px;
+        margin: auto;
+        margin-top: 5%;
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    
+    .projectCardBtn>button{
+        margin-right: 2%;
+        cursor: pointer;
+        height: 30px;
+        margin-top: 2%;
+    }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 700px){
@@ -117,11 +142,11 @@
     }
 
     .projectCard{
-        width: 48%;
-        height: 430px;
+        width: 75%;
+        height: 500px;
         border: 1px solid white;
         margin: auto;
-        margin-top: 4%;
+        margin-top: 8%;
         border-radius: 3%;
     }
     
@@ -136,12 +161,12 @@
         margin-top: 15%;
     }
     .projectCardBtn{
-        width: 95%;
+        width: 68%;
         height: 30px;
         margin: auto;
         margin-top: 5%;
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
     
     .projectCardBtn>button{
@@ -159,8 +184,8 @@
     }
 
     .projectCard{
-        width: 30%;
-        height: 400px;
+        width: 45%;
+        height: 500px;
         border: 1px solid white;
         margin: auto;
         margin-top: 4%;
@@ -173,6 +198,21 @@
         margin: auto;
         margin-top: 15%;
     }
+    .projectCardBtn{
+        width: 62%;
+        height: 30px;
+        margin: auto;
+        margin-top: 5%;
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    
+    .projectCardBtn>button{
+        margin-right: 2%;
+        cursor: pointer;
+        height: 30px;
+        margin-top: 2%;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px){
@@ -181,8 +221,8 @@
     }
 
     .projectCard{
-        width: 30%;
-        height: 390px;
+        width: 42%;
+        height: 460px;
         border: 1px solid white;
         margin: auto;
         margin-top: 4%;

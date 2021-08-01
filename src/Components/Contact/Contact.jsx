@@ -15,19 +15,27 @@ import {USER_ID, TEMPLATE_ID, SERVICE_ID} from "./emailkey"
 
 const Contact = () => {
 
+    const [email, setEmail] = React.useState(false)
+    const [load, setLoad] = React.useState(false)
+    const [err, setErr] = React.useState(false)
+
     const newTab = (url) => {
         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
         if (newWindow) newWindow.opener = null
+    }
+
+    const handleLoad = () => {
+        setLoad(true)
     }
 
     const handleSubmit = (e) => {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
           .then((result) => {
-              alert("Message sent. Thank you :)");
+            setEmail(true);
           }, (error) => {
-              console.log(error.text);
-          });
+            setErr(true);
+        });
     }
 
     return (
@@ -59,7 +67,7 @@ const Contact = () => {
                             color="secondary"
                             startIcon={< EmailIcon/>}
                         >
-                            Gmail
+                            Email
                         </Button> 
                     </a>
                     <a href={Resume} className={styles.dTag} download>
@@ -84,9 +92,12 @@ const Contact = () => {
                             <TextareaAutosize name="desc" required={true} className={styles.descrip} label="desc" aria-label="minimum height" minRows={6} placeholder="Description" fullWidth={true}/>
                         </Box>
                         <Box className={styles.submitBox}>
-                            <input type="submit" value="Send"/>
+                            {/* <input type="submit" value="Send"/> */}
+                            <button onClick={handleLoad} className={styles.submitButton}>{!email && load ? "Sending..." : "Send"}</button>
                         </Box>
                     </form>
+                    {email && <p className={styles.submitBox}>Email sent successfully !!!</p>}
+                    {err && <p className={styles.submitBox}>Something went wrong, Please try again.</p>}
                 </Box>
             </Box>
         </Container>

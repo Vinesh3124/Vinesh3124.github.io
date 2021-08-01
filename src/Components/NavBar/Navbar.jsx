@@ -41,11 +41,14 @@ export class Navbar extends Component {
         return (
             <div>
                 <nav ref={this.navbar} style={{ ...styles }}>
-                    {/* <div>
-                        <Link to="home" spy={true} smooth={true}>VN</Link>
-                    </div> */}
+                    <div>
+                        <Link to="home" spy={true} smooth={true}><lable>Home</lable></Link>
+                    </div>
                     <div>
                         <Link to="about" spy={true} smooth={true}>About</Link>
+                    </div>
+                    <div>
+                        <Link to="skills" spy={true} smooth={true}>Skills</Link>
                     </div>
                     <div>
                         <Link to="projects" spy={true} smooth={true}>Projects</Link>    

@@ -1,10 +1,14 @@
 .mainContainer{
-    height: 130vh;
+    height: auto;
+    background-color: #EFEBE9;
     font-family: 'Roboto Slab', serif;
+    padding-bottom: 50px;
+    border: 1px solid #EFEBE9;
+    margin-top: 5%;
 }
 
 .title{
-    margin-top: 3.5%;
+    margin-top: 5%;
     height: 50px;
     text-align: center;
 }
@@ -25,6 +29,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
+    text-align: center;
 }
 
 .blogCard{
@@ -57,7 +62,7 @@
         margin-top: 15%;
     }
     .blogCard{
-        width: 45%;
+        width: 85%;
         height: 300px;
         border: 1px solid white;
         margin: auto;
@@ -78,7 +83,7 @@
         margin-top: 15%;
     }
     .blogCard{
-        width: 42%;
+        width: 85%;
         height: 300px;
         border: 1px solid white;
         margin: auto;
@@ -91,8 +96,8 @@
 
 @media only screen and (min-width: 700px) and (max-width: 1024px){
     .blogCard{
-        width: 26%;
-        height: 350px;
+        width: 45%;
+        height: 330px;
         border: 1px solid white;
         margin: auto;
         margin-top: 4%;
@@ -101,7 +106,7 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px){
     .blogCard{
-        width: 22%;
+        width: 30%;
         height: 350px;
         border: 1px solid white;
         margin: auto;

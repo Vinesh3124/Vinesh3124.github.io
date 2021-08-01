@@ -33,7 +33,7 @@ const Projects = () => {
                                 <p>{el.desc}</p>
                             </Box>
                             <Box className={styles.projectCardStack}>
-                                <img src={el.tech[0]} className={styles.img} alt="stack" />
+                                <img src={el.tech[0]} className={styles.logoImg} alt="stack" />
                             </Box>
                             <Box className={styles.projectCardBtn}>
                             <Button
