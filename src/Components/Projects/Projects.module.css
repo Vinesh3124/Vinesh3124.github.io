@@ -107,7 +107,7 @@
 
     .projectCard{
         width: 90%;
-        height: 440px;
+        height: 510px;
         border: 1px solid white;
         margin: auto;
         margin-top: 8%;
@@ -135,6 +135,14 @@
         height: 30px;
         margin-top: 2%;
     }
+
+    .projectCardStack{
+        display: flex;
+        width: 50%;
+        height: 40px;
+        margin: auto;
+        /* border: 1px solid; */
+    }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 700px){
@@ -156,7 +164,7 @@
     }
     .projectCardStack{
         display: flex;
-        width: 95%;
+        width: 50%;
         height: 30px;
         margin: auto;
         margin-top: 15%;
@@ -194,10 +202,12 @@
     }
     .projectCardStack{
         display: flex;
-        width: 95%;
+        width: 50%;
         height: 30px;
         margin: auto;
         margin-top: 15%;
+        /* border: 1px solid; */
+
     }
     .projectCardBtn{
         width: 62%;
@@ -223,7 +233,7 @@
 
     .projectCard{
         width: 42%;
-        height: 460px;
+        height: 470px;
         border: 1px solid white;
         margin: auto;
         margin-top: 4%;
@@ -234,6 +244,6 @@
         width: 50%;
         height: 40px;
         margin: auto;
-        border: 1px solid;
+        /* border: 1px solid; */
     }
 }
