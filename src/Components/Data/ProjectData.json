@@ -42,16 +42,5 @@
         "tech":[
             "https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png"
         ]
-    },
-    {
-        "id": 5,
-        "img": "https://raw.githubusercontent.com/Vinesh3124/TMetric-Clone/main/ReadMeImg2.PNG",
-        "name": "TMetric (clone)",
-        "desc": "TMetric is a time tracking app that helps streamline your growing business for higher profits, satisfied clients and happier teams.",
-        "github": "https://github.com/Vinesh3124/TMetric-Clone",
-        "link": "https://tm-etric-clone.vercel.app/",
-        "tech":[
-            "https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png"
-        ]
     }
 ]
