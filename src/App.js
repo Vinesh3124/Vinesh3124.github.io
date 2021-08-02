@@ -8,6 +8,7 @@ import {Scrollbar} from 'smooth-scrollbar-react';
 import { Skills } from './Components/Skills/Skills';
 // import styles from "../src/Components/BottomBanner/Banner.module.css"
 import { Banner } from './Components/BottomBanner/Banner';
+import { DrawerNav } from './Components/NavBar/DrawerNav';
 
 function App() {
   return (
@@ -20,11 +21,9 @@ function App() {
         <Blogs />
         <Contact />
       </Scrollbar>
+      <DrawerNav />
       <Navbar />
       <Banner />
-      {/* <div >
-        <span>Created by Vinesh Nair</span>
-      </div> */}
     </div>
   );
 }

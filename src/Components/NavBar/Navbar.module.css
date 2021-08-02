@@ -32,12 +32,25 @@ nav > div:hover{
 }
 
 @media only screen and (min-width: 200px) and (max-width: 500px){
+
+    .burgerNav{
+        display: block;
+        position: fixed;
+        top: 0;
+        z-index: 20;
+        color: black;
+        width: 100%;
+        /* background-color: white; */
+        /* border: 1px solid white; */
+    }
+
     nav {
         display: flex;
         /* background-color: #1B242F; */
         z-index: 5;
         width: 100%;
         color: white;
+        display: none;
         /* justify-content: space-around; */
     }
       
@@ -65,5 +78,11 @@ nav > div:hover{
 
     nav > div:nth-child(6){
         margin-left: -4%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 2560px){
+    .burgerNav{
+        display: none;
     }
 }
