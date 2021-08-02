@@ -50,4 +50,20 @@ nav > div:hover{
         font-weight: bold;
         font-size: 12px;
     }    
+
+    nav > div:nth-child(1), nav > div:nth-child(4), nav > div:nth-child(6){
+        cursor: pointer;
+        margin-top: 1%;
+        height: 35px;
+        font-weight: bold;
+        /* border: 1px solid; */
+        margin-left: -8%;
+    }
+    nav > div:nth-child(4){
+        margin-left: -4%;
+    }
+
+    nav > div:nth-child(6){
+        margin-left: -4%;
+    }
 }

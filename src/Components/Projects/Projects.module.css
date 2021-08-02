@@ -35,11 +35,12 @@
 
 .projectCard{
     width: 35%;
-    height: 450px;
+    height: auto;
     border: 1px solid #f5f8fa;
     margin: auto;
     margin-top: 4%;
     border-radius: 5%;
+    padding: 5px;
     background: white;
     box-shadow:  18px 18px 19px #b5b8b9,
                 -18px -18px 19px #ffffff;
@@ -65,14 +66,14 @@
     font-weight: bold;
 }
 
-/* .projectCardStack{
+.projectCardStack{
     display: flex;
-    width: 5%;
-    height: 30px;
+    width: 50%;
+    height: auto;
     margin: auto;
     margin-top: 1%;
-    border: 1px solid;
-} */
+    /* border: 1px solid; */
+}
 
 .projectCardDesc{
     width: 95%;
@@ -92,10 +93,12 @@
     margin: auto;
     margin-top: 5%;
     display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
 }
 
 .projectCardBtn>button{
-    margin-right: 2%;
+    /* margin-right: 2%; */
     cursor: pointer;
 }
 
@@ -107,10 +110,11 @@
 
     .projectCard{
         width: 90%;
-        height: 510px;
+        height: auto;
         border: 1px solid white;
         margin: auto;
         margin-top: 8%;
+        padding: 5px;
         background: white;
         box-shadow:  18px 18px 19px #b5b8b9,
                     -18px -18px 19px #ffffff;
@@ -152,10 +156,11 @@
 
     .projectCard{
         width: 75%;
-        height: 500px;
+        height: auto;
         border: 1px solid white;
         margin: auto;
         margin-top: 8%;
+        padding: 5px;
         border-radius: 3%;
     }
     
@@ -194,11 +199,12 @@
 
     .projectCard{
         width: 45%;
-        height: 500px;
+        height: auto;
         border: 1px solid white;
         margin: auto;
         margin-top: 4%;
         border-radius: 3%;
+        padding: 5px;
     }
     .projectCardStack{
         display: flex;
@@ -233,11 +239,12 @@
 
     .projectCard{
         width: 42%;
-        height: 470px;
+        height: auto;
         border: 1px solid white;
         margin: auto;
         margin-top: 4%;
         border-radius: 5%;
+        padding: 5px;
     }
     .projectCardStack{
         display: flex;

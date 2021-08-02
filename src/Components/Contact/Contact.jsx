@@ -36,6 +36,7 @@ const Contact = () => {
           }, (error) => {
             setErr(true);
         });
+        e.target.reset()
     }
 
     return (
