@@ -62,24 +62,24 @@ const Contact = () => {
                     >
                         GitHub
                     </Button>   
-                    <a href="mailto:vinesh.nair31@gmail.com" className={styles.dTag} download>
-                        <Button
-                            variant="contained"
-                            color="secondary"
-                            startIcon={< EmailIcon/>}
-                        >
+                    <Button                     
+                        variant="contained"
+                        color="secondary"
+                        startIcon={< EmailIcon/>}
+                    >
+                        <a href="mailto:vinesh.nair31@gmail.com" className={styles.dTag} download>
                             Email
-                        </Button> 
-                    </a>
-                    <a href={Resume} className={styles.dTag} download>
-                        <Button
-                            variant="contained"
-                            color="secondary"
-                            startIcon={< FileCopyIcon/>}
-                        >
-                            Download My Resume
-                        </Button>  
-                    </a>               
+                        </a>
+                    </Button>
+                    <Button
+                        variant="contained"
+                        color="secondary"
+                        startIcon={< FileCopyIcon/>}
+                    >
+                        <a href={Resume} className={styles.dTag} download>
+                            My Resume  
+                        </a>      
+                    </Button>             
                 </Box>
                 <Box className={styles.inputBox}>
                     <form onSubmit={handleSubmit}>
