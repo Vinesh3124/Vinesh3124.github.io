@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "NoBroker.com",
+    "logo": "https://assets.nobroker.in/static/img/logos/nb_logo_new_trans.svg",
+    "address": "Bengaluru, Karnataka",
+    "exp_years": "Sep 2021 - Present",
+    "designation": "Software Engineer",
+    "description": [
+      "Front End Development for NoBroker Hood website",
+      "Bug fixing and creating new features for the NoBroker Hood website",
+      "Creating hybrid pages for mobile application",
+      "Closely working with project managers to understand new features requirements and implementation of new features",
+      "Conversion of old FTL pages to React pages for NoBroker Hood website",
+      "Hands-on experience using Jenkins and Portainer",
+      "Expereince using Adobe XD wireframe tool for web deisgn"
+    ]
+  }
+]

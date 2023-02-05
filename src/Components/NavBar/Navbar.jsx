@@ -51,6 +51,9 @@ export class Navbar extends Component {
                         <Link to="skills" spy={true} smooth={true}>Skills</Link>
                     </div>
                     <div>
+                        <Link to="experience" spy={true} smooth={true}>Experience</Link>
+                    </div>
+                    <div>
                         <Link to="projects" spy={true} smooth={true}>Projects</Link>    
                     </div>
                     <div>

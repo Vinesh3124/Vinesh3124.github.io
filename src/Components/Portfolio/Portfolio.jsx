@@ -10,7 +10,7 @@ const Portfolio = () => {
         <>
         <Container id="home" maxWidth="xl" className={styles.contain}>
             <div className={styles.badge}>
-                <img style={{width: "100%", height: "100%", borderRadius: "50%"}} alt="Vinesh Nair" src={profilepic}/>
+                <img className={styles.coverImg} alt="Vinesh Nair" src={profilepic}/>
             </div>
             <Box className={styles.name}>
                 <h2>Vinesh Nair</h2>
@@ -21,6 +21,7 @@ const Portfolio = () => {
                         options={{
                             autoStart: true,
                             loop: true,
+                            strings: ["Full Stack Web Developer", "Frontend Web Developer"],
                         }}
                         onInit={(typewriter, options)=> {
 

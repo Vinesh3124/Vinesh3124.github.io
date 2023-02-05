@@ -9,6 +9,7 @@ import { Skills } from './Components/Skills/Skills';
 // import styles from "../src/Components/BottomBanner/Banner.module.css"
 import { Banner } from './Components/BottomBanner/Banner';
 import { DrawerNav } from './Components/NavBar/DrawerNav';
+import { Experience } from './Components/Experience/Experience';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Portfolio />
         <About />
         <Skills />
+        <Experience />
         <Projects />
         <Blogs />
         <Contact />

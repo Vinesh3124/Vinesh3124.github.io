@@ -67,6 +67,14 @@ const DrawerNav = () => {
             </List>
         </Link>
         <Divider />
+        <Link onClick={toggleDrawer(anchor, false)} to="experience" spy={true} smooth={true}>
+            <List>
+                <ListItem>
+                    <ListItemText primary="Experience" />
+                </ListItem>
+            </List>
+        </Link>
+        <Divider />
         <Link onClick={toggleDrawer(anchor, false)} to="projects" spy={true} smooth={true}>
             <List>
                 <ListItem>
