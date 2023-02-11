@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://Vinesh3124.github.io/Vinesh3124.github.io",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.1",
@@ -29,7 +30,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://Vinesh3124.github.io",
   "eslintConfig": {
     "extends": [
       "react-app",
