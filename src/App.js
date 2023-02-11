@@ -1,3 +1,4 @@
+import React from 'react';
 import Navbar from './Components/NavBar/Navbar';
 import { Portfolio } from './Components/Portfolio/Portfolio';
 import {About} from "./Components/About/About"
