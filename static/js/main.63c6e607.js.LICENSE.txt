@@ -4,15 +4,6 @@ object-assign
 @license MIT
 */
 
-/*!
- * cast `I.Scrollbar` to `Scrollbar` to avoid error
- *
- * `I.Scrollbar` is not assignable to `Scrollbar`:
- *     "privateProp" is missing in `I.Scrollbar`
- *
- * @see https://github.com/Microsoft/TypeScript/issues/2672
- */
-
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -56,6 +47,15 @@ PERFORMANCE OF THIS SOFTWARE.
 
 /** @license React v17.0.2
  * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react-is.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
