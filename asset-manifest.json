@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.f8b999b7.css",
-    "main.js": "/static/js/main.0e8fd819.js",
+    "main.js": "/static/js/main.54a42ad4.js",
     "static/js/787.b9ec5bb0.chunk.js": "/static/js/787.b9ec5bb0.chunk.js",
     "static/media/Profile_5.png": "/static/media/Profile_5.a1017ef4fd6b356c6af0.png",
-    "static/media/Vinesh's Resume.pdf": "/static/media/Vinesh's Resume.d34fd2ea7fbb237c9abe.pdf",
+    "static/media/Vinesh's Resume.pdf": "/static/media/Vinesh's Resume.865aed630a6ada6182e8.pdf",
+    "static/media/jenkins.jpg": "/static/media/jenkins.3ce11fe512d61bbf7770.jpg",
     "static/media/React_logo.jpg": "/static/media/React_logo.64ee26cdb381b084c224.jpg",
+    "static/media/Redux_Saga.png": "/static/media/Redux_Saga.a670b3499acb74952184.png",
     "static/media/JavaScript_Logo.png": "/static/media/JavaScript_Logo.2e10b2a247e94504d12c.png",
     "static/media/styledCom_logo.png": "/static/media/styledCom_logo.3eea9cb9d74c3834f72b.png",
     "static/media/github.png": "/static/media/github.1e61d3b363eea7dd0958.png",
@@ -14,14 +16,15 @@
     "static/media/materialUi_logo.png": "/static/media/materialUi_logo.5b2d8a0a309d9f7d47c1.png",
     "static/media/MongoDB_logo.gif": "/static/media/MongoDB_logo.cf4cb4a2dbd673719bac.gif",
     "static/media/nodejs.png": "/static/media/nodejs.214246b8e3a935916638.png",
+    "static/media/Jira.avif": "/static/media/Jira.ad590303855cdaf72c24.avif",
     "static/media/CSS_logo.svg": "/static/media/CSS_logo.b2e00fdfe9442e0296cfd5f96a883bc1.svg",
     "index.html": "/index.html",
     "main.f8b999b7.css.map": "/static/css/main.f8b999b7.css.map",
-    "main.0e8fd819.js.map": "/static/js/main.0e8fd819.js.map",
+    "main.54a42ad4.js.map": "/static/js/main.54a42ad4.js.map",
     "787.b9ec5bb0.chunk.js.map": "/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8b999b7.css",
-    "static/js/main.0e8fd819.js"
+    "static/js/main.54a42ad4.js"
   ]
 }
