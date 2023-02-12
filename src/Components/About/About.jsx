@@ -11,13 +11,11 @@ const About = () => {
                     <Box className={styles.infoBox}>
                         <h2>About Me</h2>
                         <p>
-                            <strong>Hi,</strong> My name is <strong>Vinesh Nair.</strong> I
-                            am a <strong>Full Stack Developer</strong> recently graduated from <strong>Masai school</strong> and
-                            looking for a career as a <strong>Full Stack Developer</strong>. 
+                            <strong>Hi,</strong> My name is <strong>Vinesh Nair.</strong> I am a <strong>Front End Developer</strong>. 
                         </p>
                         <p>
                             I am from <strong>Pune, Maharashtra</strong> and I've completed my <strong>Bachelor's in Computer Application</strong> from <strong>Pune University.</strong> I've 
-                            3+ years of working experience in RPO and BPO's.
+                            2 years of working experience as a Front End web Developer in NoBroker.com, and I've 3+ years of experience working in RPO and BPO's.
                         </p>
                         <p>
                             I am interested in creating well designed or pixel-perfect Frontend with functionality and take on new 

@@ -21,7 +21,7 @@ const Portfolio = () => {
                         options={{
                             autoStart: true,
                             loop: true,
-                            strings: ["Full Stack Web Developer", "Frontend Web Developer"],
+                            strings: ["Frontend Web Developer"],
                         }}
                         onInit={(typewriter, options)=> {
 
@@ -36,7 +36,7 @@ const Portfolio = () => {
                 </h2>
             </Box>
             <Box className={styles.name}>
-                <p>Full Stack Developer with a passion for development and excited to be at the deployment phase of my 
+                <p>Front End Web Developer with a passion for development and excited to be at the deployment phase of my 
                     career as a web developer. Proficient in Frontend technology as well as in backend technology.
                 </p>
             </Box>

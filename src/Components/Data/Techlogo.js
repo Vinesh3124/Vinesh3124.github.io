@@ -10,10 +10,15 @@ import express_logo from "../Images/express_logo.png"
 import mongoose_logo from "../Images/mongoose_logo.png"
 import github_logo from "../Images/github.png"
 import nodejs_logo from "../Images/nodejs.png"
+import reduxSaga_logo from "../Images/Redux_Saga.png"
+import jira_logo from "../Images/Jira.avif"
+import portainer_logo from "../Images/portainer.png"
+import jenkins_logo from "../Images/jenkins.jpg"
 
 const imgData = [
     html_logo, css_logo, js_logo, react_logo, redux_logo, materialUi_logo, styledCom_logo, 
-    MongoDB_logo, express_logo, mongoose_logo , github_logo, nodejs_logo
+    MongoDB_logo, express_logo, mongoose_logo , github_logo, nodejs_logo, reduxSaga_logo, jira_logo,
+    portainer_logo, jenkins_logo
 ]
 
 export {imgData}

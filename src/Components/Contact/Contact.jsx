@@ -24,12 +24,9 @@ const Contact = () => {
         if (newWindow) newWindow.opener = null
     }
 
-    const handleLoad = () => {
-        setLoad(true)
-    }
-
     const handleSubmit = (e) => {
         e.preventDefault();
+        setLoad(true)
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
           .then((result) => {
             setEmail(true);
@@ -93,8 +90,7 @@ const Contact = () => {
                             <TextareaAutosize name="desc" required={true} className={styles.descrip} label="desc" aria-label="minimum height" minRows={6} placeholder="Description" fullWidth={true}/>
                         </Box>
                         <Box className={styles.submitBox}>
-                            {/* <input type="submit" value="Send"/> */}
-                            <button onClick={handleLoad} className={styles.submitButton}>{!email && load ? "Sending..." : "Send"}</button>
+                            <button className={styles.submitButton}>{!email && load ? "Sending..." : "Send"}</button>
                         </Box>
                     </form>
                     {email && <p className={styles.submitBox}>Email sent successfully !!!</p>}
